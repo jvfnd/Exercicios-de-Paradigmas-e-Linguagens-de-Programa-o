@@ -11,7 +11,7 @@ func (m Matematica) CalcularFatorial(numero int){
 	for i := 1; i<= numero; i++{
 		resultado *= i
 	} 
-	fmt.Printf("Fatoria de %d tem resultado de: %d", numero, resultado)
+	fmt.Printf("Fatorial de %d tem resultado de: %d", numero, resultado)
 }
 
 
